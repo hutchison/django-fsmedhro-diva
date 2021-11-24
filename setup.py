@@ -1,7 +1,7 @@
 import os
 from setuptools import find_packages, setup
 
-with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
+with open('README.md', 'r', encoding='utf-8') as readme:
     README = readme.read()
 
 # allow setup.py to be run from any path
@@ -9,11 +9,14 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-fsmedhro-diva',
-    version='0.0.1',
+    version='0.0.2',
+    author='Martin Darmüntzel',
+    author_email='martin@trivialanalog.de',
+    description='Django-App für die Auswertung von Veranstaltungen',
     packages=find_packages(),
     include_package_data=True,
-    description='Django-App für die Auswertung von Veranstaltungen',
     long_description=README,
+    long_description_content_type="text/markdown",
     license='MIT License',
     url='https://github.com/hutchison/django-exoral',
     install_requires=[
@@ -21,8 +24,6 @@ setup(
         'django-fsmedhro-core>=0.2.6',
     ],
     python_requires=">=3.5",
-    author='Martin Darmüntzel',
-    author_email='martin@trivialanalog.de',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',

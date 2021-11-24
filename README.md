@@ -1,11 +1,8 @@
-======
-DIVA - Deine individuelle Veranstaltungs-Auswertung
-======
+# DIVA - Deine individuelle Veranstaltungs-Auswertung
 
 Eine Django-App für die Auswertung von Veranstaltungen. Benötigt ``django-fsmedhro-core``.
 
-Installation
-------------
+## Installation
 
 1. Füge ``fsmedhro_diva`` zu deinen ``INSTALLED_APPS`` hinzu.
 
