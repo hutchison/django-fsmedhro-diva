@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-fsmedhro-diva',
-    version='0.0.2',
+    version='0.0.3',
     author='Martin Darmüntzel',
     author_email='martin@trivialanalog.de',
     description='Django-App für die Auswertung von Veranstaltungen',
@@ -32,7 +32,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
